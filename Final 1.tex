@@ -1,0 +1,171 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Arial} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{booktabs}
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment:
+%\addtolength{\voffset}{-1.3cm}
+\usepackage{fullpage}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{1pt}{1pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+%\par{\centering{\Huge Corey \textsc{Spohn}}\bigskip\par} % Your name
+\begin{center}
+\setlength{\tabcolsep}{16.2pt}
+\begin{tabular}{l | c | r} 
+\textbf{College Address:}& \Huge Corey Spohn & \textbf{Permanent Address:}\\
+11500 K Foxtrail Lane&\href{mailto:coreys95@vt.edu}{coreys95@vt.edu}&1286 Auburn Grove Lane \\
+Blacksburg, VA 24060&703-859-6146&Reston, VA 20194\\
+\bottomrule[1mm]
+\end{tabular}
+
+\end{center}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r|p{11.75cm}}	
+Virginia Tech & \textbf{B.S. Physics}, Graduating May 2018\\
+&\textbf{B.S. Engineering Science and Mechanics}, Graduating May 2018\\
+&Minors: \textbf{Math, Astronomy}\\
+&GPA: \bf{3.74}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Research and Laboratory Experience}
+
+\begin{tabular}{r|p{12cm}}
+\emph{Mar 2017-} & \textbf{Team Leader} for Dr. Abaid's Senior Design Team \\[-0.5ex]
+
+\emph{Present} & -\footnotesize{In charge of meetings, programming, communicating with advisers, and resolving team disputes.} \\[-0.5ex]
+& -\footnotesize{Building a team of robots that use pursuit/evasion algorithms and motion tracking to play Sharks and Minnows with humans in order to refine our human-robot interaction computer model.}\\
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+
+%------------------------------------------------
+
+\emph{Jan 2017-} & \textbf{Research Assistant} for \href{http://www.beam.vt.edu/boreyko/}{The Boreyko Group} \\[-0.5ex]
+
+\emph{Present} & -\footnotesize{Designed and carried out experiments to study passive anti-frosting surfaces as well as the \mbox{mechanics} of inter-droplet ice bridging.} \\[-0.5ex]
+& -\footnotesize{Wrote Python applications to speed up research calculations and data processing.}\\
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+%------------------------------------------------
+
+\textsc{2017} & \textbf{Mechanics Lab} \emph{}\\[-0.5ex]
+& -\footnotesize{Performed experiments and signal processing to measure strain, pressure, temperature, and acceleration using both National Instruments and Arduino systems.}\\[-0.5ex]
+& -\footnotesize{Engineered a small, autonomous system to alert cyclists of approaching cars.}\\
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+%------------------------------------------------
+
+\emph{2016} & \textbf{Research Assistant} for \href{http://www.beam.vt.edu/boreyko/}{The Socha Lab} \\[-0.5ex]
+& -\footnotesize{Used a 3d motion capture system to analyze how flying snakes cross gaps between branches.\\
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+%------------------------------------------------
+
+\textsc{2016} & \textbf{Mechanics of Materials Lab} \emph{}\\[-0.5ex]
+& -\footnotesize{Performed tensile, fracture, and compressive tests on polymers and metals using Instron and MTS testing machines.}
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+%------------------------------------------------
+
+\textsc{2016} & \textbf{Fluid Mechanics Lab} \emph{}\\[-0.5ex]
+& -\footnotesize{Performed drag tests on various bodies, flow analysis, and scientific writing.}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{r|l}
+Basic Knowledge & C, C++, HTML, Inventor, GitHub, {\fb \LaTeX}
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+Intermediate Knowledge & Python, Arduino, Microsoft Office, Mathematica, MATLAB\\
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+Public Projects & \href{https://github.com/CoreySpohn}{github.com/CoreySpohn} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships and Honors}
+
+\begin{tabular}{r|p{11.75cm}}
+\textsc{2017} & \textbf{Hugh D. Ussery} Physics Scholarship \\[-0.5ex]
+& \footnotesize{Awarded for excellence in scholarship and a promising career.}\\
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+\textsc{2014, 2015,} & \textbf{Robert C. Richardson} Physics Scholarships\\[-0.5ex]
+and \textsc{2016} &\footnotesize{Awarded for academic talent, responsibility, and industry.}\\
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+\textsc{2016} & \textbf{Sigma Pi Sigma} Physics National Honors Society}\\
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+\textsc{2012} & \textbf{Eagle Scout}\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Other Work and Volunteer Experience}
+
+\begin{tabular}{r|p{11.75cm}}
+\emph{2014-} & \textbf{Preschool Teacher}, Reston Children's Center\\[-0.5ex]
+Present & -\footnotesize{Worked as a substitute teacher for 2-5 year-olds. \\[-0.5ex]
+&-\footnotesize{Volunteered when no substitute was required.}\\
+\multicolumn{2}{c}{} \\[-1.5ex]
+
+%------------------------------------------------
+
+\textsc{2014-} & \textbf{Food Technician}, Virginia Tech Dining Services \emph{}\\[-0.5ex]
+\textsc{2015}& -\footnotesize{Trained in customer service and delivered quality service in a fast paced environment.}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
