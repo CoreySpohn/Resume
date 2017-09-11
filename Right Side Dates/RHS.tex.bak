@@ -44,9 +44,9 @@
 %\par{\centering{\Huge Corey \textsc{Spohn}}\bigskip\par} % Your name
 \begin{center}
 \setlength{\tabcolsep}{16.2pt}
-\begin{tabular}{l | c | r} 
+\begin{tabular}{l  c  r} 
 \footnotesize{\textbf{College Address:}}& \Huge Corey Spohn & \footnotesize{\textbf{Permanent Address:}}\\[-0.5ex]
-\footnotesize{11500 K Foxtrail Lane}&\footnotesize{\href{mailto:coreys95@vt.edu}{coreys95@vt.edu}}&\footnotesize{1286 Auburn Grove Lane}\\[-0.75ex]
+\footnotesize{11500 K Foxtrail Lane}&\href{mailto:coreys95@vt.edu}{coreys95@vt.edu}&\footnotesize{1286 Auburn Grove Lane}\\[-0.75ex]
 \footnotesize{Blacksburg, VA 24060}&\footnotesize{703-859-6146}&\footnotesize{Reston, VA 20194}\\[-0.5ex]
 \bottomrule[1mm]
 \end{tabular}
@@ -59,29 +59,29 @@
 
 \section{Research Experience}
 
-\begin{tabular}{r|p{12cm}}
+\begin{tabular}{p{15.5cm}}
 %------------------------------------------------
 
-\emph{Jan 2017-} & \textbf{Research Assistant} for \href{http://www.beam.vt.edu/boreyko/}{The NIFI Group}, Virginia Tech \hfill Jan 2017 - Present \\[-0.5ex]
+\textbf{Research Assistant} for \href{http://www.beam.vt.edu/boreyko/}{The NIFI Group}, Virginia Tech \hfill Jan 2017 - Present \\[-0.5ex]
 
-\emph{Present} & \textbullet\footnotesize{Designed and carried out experiments to study passive anti-frosting surfaces as well as the \newline\hphantom{\textbullet}mechanics of inter-droplet ice bridging.} \\[-0.5ex]
-& \textbullet\footnotesize{Wrote Python applications to speed up research calculations and data processing.}\\[-0.5ex]
-&\textbullet\footnotesize{Conducting further experiments and preparing to present at the APS DFD 2017 conference.}\\
+\textbullet\footnotesize{Designed and carried out experiments to study passive anti-frosting surfaces and the mechanics of inter-droplet ice bridging.} \\[-0.5ex]
+\textbullet\footnotesize{Wrote Python applications to speed up research calculations and data processing.}\\[-0.5ex]
+\textbullet\footnotesize{Conducting further experiments and preparing to present at the APS DFD 2017 conference.}\\
 \multicolumn{2}{c}{} \\[-1.5ex]
 
 %------------------------------------------------
 
-\emph{Mar 2017-} & \textbf{Team Leader} for Robotics Capstone Design Project, Virginia Tech \\[-0.5ex]
+\textbf{Team Leader} for Robotics Capstone Design Project, Virginia Tech \hfill Mar 2017-Present\\[-0.5ex]
 
-\emph{Present} & \textbullet\footnotesize{In charge of meetings, programming, communicating with advisers, and resolving team disputes.} \\[-0.5ex]
-&\textbullet\footnotesize{Researching and writing a Python human-robot interaction model that predicts crowd movements\newline\hphantom{\textbullet}in response to robotic intervention during a panic situation.}\\[-0.5ex]
-& \textbullet\footnotesize{Building a team of robots that use pursuit/evasion algorithms and motion tracking to play Sharks \newline\hphantom{\textbullet}and Minnows with humans in order to refine our human-robot interaction model.}\\
+\textbullet\footnotesize{In charge of meetings, programming, communicating with advisers, and resolving team disputes.} \\[-0.5ex]
+\textbullet\footnotesize{Researching and writing a Python human-robot interaction model that predicts crowd movements in response to robotic \newline\hphantom{\textbullet}intervention during a panic situation.}\\[-0.5ex]
+\textbullet\footnotesize{Building robots that use pursuit/evasion algorithms and motion tracking to play Sharks and Minnows with humans in order \newline\hphantom{\textbullet}to test our human-robot interaction model.}\\
 \multicolumn{2}{c}{} \\[-1.5ex]
 
 %------------------------------------------------
 
-\emph{2016} & \textbf{Research Assistant} for \href{http://www.beam.vt.edu/boreyko/}{The Socha Lab}, Virginia Tech \\[-0.5ex]
-& \textbullet\footnotesize{Used a 3d motion capture system to analyze how flying snakes cross gaps between branches.\\
+\textbf{Research Assistant} for \href{http://www.beam.vt.edu/boreyko/}{The Socha Lab}, Virginia Tech \hfill 2016\\[-0.5ex]
+\textbullet\footnotesize{Used a 3d motion capture system to analyze how flying snakes cross gaps between branches.\\
 \multicolumn{2}{c}{} \\[-1.5ex]
 
 \end{tabular}
@@ -92,24 +92,24 @@
 
 \section{Laboratory Experience}
 
-\begin{tabular}{r|p{12cm}}
+\begin{tabular}{p{15.5cm}}
 %------------------------------------------------
 
-\textsc{2017} & \textbf{Mechanics Lab}, Virginia Tech \emph{}\\[-0.5ex]
-& \textbullet\footnotesize{Performed experiments and signal processing to measure strain, pressure, temperature, and \newline\hphantom{\textbullet}acceleration using both National Instruments and Arduino systems.}\\[-0.5ex]
-& \textbullet\footnotesize{Engineered a small, autonomous system to alert cyclists of approaching cars.}\\
+\textbf{Mechanics Lab}, Virginia Tech \hfill 2017\\[-0.5ex]
+\textbullet\footnotesize{Performed experiments and signal processing to measure strain, pressure, temperature, and acceleration using both National \newline\hphantom{\textbullet}Instruments and Arduino systems.}\\[-0.5ex]
+\textbullet\footnotesize{Autonomously engineered a small Arduino system to alert cyclists of approaching cars.}\\
 \multicolumn{2}{c}{} \\[-1.5ex]
 
 %------------------------------------------------
 
-\textsc{2016} & \textbf{Mechanics of Materials Lab}, Virginia Tech \emph{}\\[-0.5ex]
-& \textbullet\footnotesize{Performed tensile, fracture, compressive, and other fundamental tests on polymers and metals\newline\hphantom{\textbullet}using Instron and MTS testing machines.}
+\textbf{Mechanics of Materials Lab}, Virginia Tech \hfill 2016\\[-0.5ex]
+\textbullet\footnotesize{Performed tensile, fracture, compressive, and other tests on polymers and metals using Instron and MTS testing machines.}
 \multicolumn{2}{c}{} \\[-1.5ex]
 
 %------------------------------------------------
 
-\textsc{2016} & \textbf{Fluid Mechanics Lab}, Virginia Tech \emph{}\\[-0.5ex]
-& \textbullet\footnotesize{Performed drag tests on various bodies, flow analysis, and scientific writing.}
+\textbf{Fluid Mechanics Lab}, Virginia Tech \hfill 2016\\[-0.5ex]
+\textbullet\footnotesize{Performed drag tests on various bodies, flow analysis, and scientific writing.}
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -118,11 +118,11 @@
 
 \section{Education}
 
-\begin{tabular}{r|p{11.75cm}}	
-Virginia Tech &\textbf{B.S. Engineering Science and Mechanics}, Graduating May 2018\\
-&\textbf{B.S. Physics}, Graduating May 2018\\
-&Minors: \textbf{Math, Astronomy}\\
-&GPA: \bf{3.74}\\
+\begin{tabular}{p{15.5cm}}	
+\textbf{B.S. Engineering Science and Mechanics}, Virginia Tech \hfill Graduating May 2018\\
+\textbf{B.S. Physics}, Virginia Tech \hfill Graduating May 2018\\
+Minors: \textbf{Math, Astronomy}\\
+GPA: \bf{3.74}\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -148,19 +148,19 @@ Public Projects & \href{https://github.com/CoreySpohn}{github.com/CoreySpohn} \\
 
 \section{Scholarships and Honors}
 
-\begin{tabular}{r|p{11.75cm}}
-\textsc{2017} & \textbf{Hugh D. Ussery} Physics Scholarship \\[-0.5ex]
-& \textbullet\footnotesize{Awarded for excellence in scholarship and a promising career.}\\
+\begin{tabular}{p{15.5cm}}
+\textbf{Hugh D. Ussery} Physics Scholarship \hfill 2017\\[-0.5ex]
+\textbullet\footnotesize{Awarded for excellence in scholarship and a promising career.}\\
 \multicolumn{2}{c}{} \\[-1.5ex]
 
-\textsc{2014, 2015,} & \textbf{Robert C. Richardson} Physics Scholarships\\[-0.5ex]
-and \textsc{2016} &\textbullet\footnotesize{Awarded for academic talent, responsibility, and industry.}\\
+\textbf{3 Time Awardee of Robert C. Richardson} Physics Scholarship \hfill 2014, 2015, and 2016\\[-0.5ex]
+\textbullet\footnotesize{Awarded for academic talent, responsibility, and industry.}\\
 \multicolumn{2}{c}{} \\[-1.5ex]
 
-\textsc{2016} & \textbf{Sigma Pi Sigma} Physics National Honors Society}\\
+\textbf{Sigma Pi Sigma} Physics National Honors Society \hfill 2016\\
 \multicolumn{2}{c}{} \\[-1.5ex]
 
-\textsc{2012} & \textbf{Eagle Scout}\\
+\textbf{Eagle Scout} \hfill 2016\\
 
 \end{tabular}
 
@@ -170,16 +170,16 @@ and \textsc{2016} &\textbullet\footnotesize{Awarded for academic talent, respons
 
 \section{Other Work and Volunteer Experience}
 
-\begin{tabular}{r|p{11.75cm}}
-\emph{2014-} & \textbf{Preschool Teacher}, Reston Children's Center\\[-0.5ex]
-Present & \textbullet\footnotesize{Work as a substitute teacher for 2-5 year-olds while on break from school.} \\[-0.5ex]
-&\textbullet\footnotesize{Volunteer when no substitute is required.}\\
+\begin{tabular}{p{15.5cm}}
+\textbf{Preschool Teacher}, Reston Children's Center \hfill 2014-Present\\[-0.5ex]
+\textbullet\footnotesize{Work as a substitute teacher for 2-5 year-olds while on break from school.} \\[-0.5ex]
+\textbullet\footnotesize{Volunteer when no substitute is required.}\\
 \multicolumn{2}{c}{} \\[-1.5ex]
 
 %------------------------------------------------
 
-\textsc{2014-} & \textbf{Food Technician}, Virginia Tech Dining Services \emph{}\\[-0.5ex]
-\textsc{2015}& \textbullet\footnotesize{Trained in customer service and delivered quality service in a fast paced environment.}\\
+\textbf{Food Technician}, Virginia Tech Dining Services \hfill 2014-2015\\[-0.5ex]
+\textbullet\footnotesize{Trained in customer service and delivered quality service in a fast paced environment.}\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
