@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210 64-bit) (preloaded format=xelatex 2017.9.9)  5 DEC 2017 23:48
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210 64-bit) (preloaded format=xelatex 2017.9.5)  12 DEC 2017 10:01
 entering extended mode
 **./RHS.tex
 (RHS.tex
@@ -910,8 +910,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_sc_tl used!
-l.60 \section{Research Experience}
-                                  
+l.60 \section{Education}
+                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -922,10 +922,21 @@ and I'll forget about whatever was undefined.
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Erroneous variable \c__fontspec_shape_n_sc_tl used!
+l.73 \section{Research Experience}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.70 \multicolumn{2}{c}{}
+l.83 \multicolumn{2}{c}{}
                           \\[-1.5ex]
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -934,7 +945,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.79 \multicolumn{2}{c}{}
+l.92 \multicolumn{2}{c}{}
                           \\[-1.5ex]
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -943,7 +954,7 @@ So I'll assume that you meant to type \cr instead.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.85 \multicolumn
+l.98 \multicolumn
                  {2}{c}{} \\[-1.5ex]
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -952,7 +963,7 @@ Try to go on, since this might almost work.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.85 \multicolumn{2}{c}{}
+l.98 \multicolumn{2}{c}{}
                           \\[-1.5ex]
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -961,8 +972,8 @@ So I'll assume that you meant to type \cr instead.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_sc_tl used!
-l.93 \section{Laboratory Experience}
-                                    
+l.106 \section{Laboratory Experience}
+                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -972,7 +983,7 @@ and I'll forget about whatever was undefined.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.101 \multicolumn{2}{c}{}
+l.114 \multicolumn{2}{c}{}
                            \\[-1.5ex]
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -981,7 +992,7 @@ So I'll assume that you meant to type \cr instead.
 ! Misplaced \omit.
 \multispan ->\omit 
                    \@multispan 
-l.107 \multicolumn{2}{c}{}
+l.120 \multicolumn{2}{c}{}
                            \\[-1.5ex]
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -989,7 +1000,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.107 \multicolumn{2}{c}{}
+l.120 \multicolumn{2}{c}{}
                            \\[-1.5ex]
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -998,46 +1009,7 @@ So I'll assume that you meant to type \cr instead.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_sc_tl used!
-l.119 \section{Education}
-                         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \LaTeX3 error: 
-                           Erroneous variable \c__fontspec_shape_n_sc_tl used!
-l.132 \section{Computer Skills}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.140 \multicolumn{2}{c}{}
-                           \\[-1.5ex]
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.140 \multicolumn{2}{c}{}
-                           \\[-1.5ex]
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Undefined control sequence.
-<argument> \LaTeX3 error: 
-                           Erroneous variable \c__fontspec_shape_n_sc_tl used!
-l.149 \section{Scholarships and Honors}
+l.132 \section{Scholarships and Honors}
                                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1048,7 +1020,7 @@ and I'll forget about whatever was undefined.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.154 \multicolumn{2}{c}{}
+l.137 \multicolumn{2}{c}{}
                            \\[-1.5ex]
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1057,7 +1029,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.158 \multicolumn{2}{c}{}
+l.141 \multicolumn{2}{c}{}
                            \\[-1.5ex]
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1066,7 +1038,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.161 \multicolumn{2}{c}{}
+l.144 \multicolumn{2}{c}{}
                            \\[-1.5ex]
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1075,7 +1047,35 @@ So I'll assume that you meant to type \cr instead.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_sc_tl used!
-l.171 ...tion{Other Work and Volunteer Experience}
+l.154 \section{Computer Skills}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.162 \multicolumn{2}{c}{}
+                           \\[-1.5ex]
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.162 \multicolumn{2}{c}{}
+                           \\[-1.5ex]
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Erroneous variable \c__fontspec_shape_n_sc_tl used!
+l.172 ...tion{Other Work and Volunteer Experience}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1086,29 +1086,38 @@ and I'll forget about whatever was undefined.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.177 \multicolumn{2}{c}{}
+l.178 \multicolumn{2}{c}{}
                            \\[-1.5ex]
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.184 \multicolumn{2}{c}{}
+                           \\[-1.5ex]
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
  (RHS.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 187.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
- 22027 strings out of 427899
- 399461 string characters out of 3153118
- 478678 words of memory out of 3000000
+ 22029 strings out of 427899
+ 399528 string characters out of 3153118
+ 479678 words of memory out of 3000000
  25826 multiletter control sequences out of 15000+200000
- 530784 words of font info for 42 fonts, out of 3000000 for 9000
+ 530792 words of font info for 43 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 36i,9n,68p,10383b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,12n,68p,10383b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on RHS.pdf (1 page).
